@@ -18,7 +18,7 @@ import Notifications from "./pages/Notifications"
 import Settings from "./pages/Settings"
 import Invoices from "./pages/Invoices"
 import Calendar from "./pages/Calendar"
-import Sheet from "./pages/Sheet"
+import Sheet from "./pages/sheet" // Changed import path from "./pages/Sheet" to "./pages/sheet" (lowercase) to match actual file name
 import NotFound from "./pages/NotFound"
 
 const queryClient = new QueryClient()
